@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+ol,
+ul {
+  padding-left: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 1rem;
+  align-items: flex-start;
+  width: 550px;
+  padding: 2rem 3rem;
+  background-color: white;
+  border-radius: 3px;
+  color: var(--primary);
+  transition: 0.3s all ease;
+  @media screen and (max-width: 580px) {
+    width: 500px;
+  }
+  @media screen and (max-width: 500px) {
+    width: 350px;
+    padding: 1rem 1.5rem;
+  }
+}
+.row {
+  width: 100%;
+  display: flex;
+}
+/* Animation */
